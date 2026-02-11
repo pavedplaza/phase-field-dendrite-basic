@@ -187,6 +187,7 @@ Where:
 - `ϕ` (phi): Phase field (ϕ=1 solid, ϕ=-1 liquid)
 - `k`: Partition coefficient
 - `λ` (lambda): Coupling constant
+- `A(ψ)`: Anisotropy function
 
 #### Concentration Field Equation
 
@@ -203,24 +204,15 @@ Where:
 Where:
 - `U`: Dimensionless concentration
 - `D`: Diffusion coefficient
-- `v`：Velocity field
-
-#### Anisotropy Function
-
-```
-A(ψ) = A₀[1 + ε cos(m(ψ - ψ₀))]
-```
-
-For six-fold symmetry (m=6):
-- `ε` (epsilon): Anisotropy strength
-- 'm'：Anisotropy mode
+- `v`: Velocity field
 
 ---
 
 #### Numerical Method
 
 - **Spatial discretization**: Finite difference with 5-point stencil
-- **Time integration**: Explicit Euler scheme
+- **Time integration**: Explicit Euler scheme  
+- ** 时间积分 **：显式欧拉方案
 - **Time step**: Calculated based on CFL condition: `dt = safety_factor * dx² / (4D)`
 - **Boundary conditions**: Periodic or zero-gradient
 
