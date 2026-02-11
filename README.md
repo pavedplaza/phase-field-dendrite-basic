@@ -187,7 +187,6 @@ Where:
 - `ϕ` (phi): Phase field (ϕ=1 solid, ϕ=-1 liquid)
 - `k`: Partition coefficient
 - `λ` (lambda): Coupling constant
-- `ε` (epsilon): Anisotropy strength
 
 #### Concentration Field Equation
 
@@ -204,16 +203,17 @@ Where:
 Where:
 - `U`: Dimensionless concentration
 - `D`: Diffusion coefficient
-- `v`: Velocity field
+- `v`：Velocity field
 
 #### Anisotropy Function
 
 ```
-ε(θ) = ε₀[1 + δ cos(m(θ - θ₀))]
+A(ψ) = A₀[1 + ε cos(m(ψ - ψ₀))]
 ```
 
 For six-fold symmetry (m=6):
-- Preferred growth directions at 0°, 60°, 120°, 180°, 240°, 300°
+- `ε` (epsilon): Anisotropy strength
+- 'm'：Anisotropy mode
 
 ---
 
