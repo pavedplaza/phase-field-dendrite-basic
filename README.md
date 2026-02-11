@@ -212,7 +212,6 @@ Where:
 
 - **Spatial discretization**: Finite difference with 5-point stencil
 - **Time integration**: Explicit Euler scheme  
-- ** 时间积分 **：显式欧拉方案
 - **Time step**: Calculated based on CFL condition: `dt = safety_factor * dx² / (4D)`
 - **Boundary conditions**: Periodic or zero-gradient
 
