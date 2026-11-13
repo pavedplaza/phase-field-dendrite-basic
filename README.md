@@ -19,7 +19,7 @@ An educational Concentration-phase-field method implementation perfect for PFM b
 ![Basic Growth Example](examples/images/basic_growth_preview.png)
 *Video: Combined view of phase, concentration, and C/C∞ fields*
 
-<video src="https://github.com/user-attachments/assets/6628695f-00f5-48e8-8ad1-93370805df96" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/6628695f-00f5-48e8-8ad1-93370805df96
 
 Six-fold symmetric dendrite growing from a central seed. The video shows simultaneous evolution of three fields in subplots.
 
@@ -34,9 +34,9 @@ Six-fold symmetric dendrite growing from a central seed. The video shows simulta
 ![Velocity Field Example](examples/images/velocity_field_preview.png)
 *Videos: Combined fields, Streamlines with velocity magnitude background*
 
-<video src="https://github.com/user-attachments/assets/6e780264-69dc-40a3-af7b-bf80946dcc0e" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/6e780264-69dc-40a3-af7b-bf80946dcc0e
 
-<video src="https://github.com/user-attachments/assets/77b1f14a-9711-406f-befa-d10c1243ebac" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/77b1f14a-9711-406f-befa-d10c1243ebac
 
 Dendrite growing under uniform flow (forced convection). The flow breaks the six-fold symmetry and creates asymmetric growth patterns:
 - **Upstream side**: Fresh fluid brings lower solute concentration → **Faster growth**
@@ -55,7 +55,7 @@ Tip curvature radius and growth velocity vary with λ
 
 **Million-grid computing**: 1000×1000 grid, 50τ₀ simulation completed in just **22.3 seconds**
 
-<video src="https://github.com/user-attachments/assets/d53e2fdb-9c83-46bc-b3e9-4b438198939c" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/d53e2fdb-9c83-46bc-b3e9-4b438198939c
 
 **Key Features**:
 - **Massive speedup**: 388× faster than MATLAB (391ms vs 152s for basic simulation)
